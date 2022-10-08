@@ -1,6 +1,7 @@
 
 import Nav from "./components/Nav"
 import MainContent from "./components/MainContent"
+import Form from "./components/Form"
 
 import './App.css'
 
@@ -10,6 +11,7 @@ function App() {
     <div>
       <Nav />
       <MainContent />
+      <Form />
     </div>
   )
 }
