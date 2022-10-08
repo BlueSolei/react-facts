@@ -1,7 +1,7 @@
 export default function MainContent() {
   return (
-    <>
-      <h1 className="main-content">Fun facts about React</h1>
+    <main className="main-content">
+      <h1>Fun facts about React</h1>
       <ul className="react-facts">
         <li>Was first released in 2013</li>
         <li>Was originally created by Jordan Walke</li>
@@ -9,6 +9,6 @@ export default function MainContent() {
         <li>Is maintained by Facebook</li>
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
-    </>
+    </main>
   )
 }
